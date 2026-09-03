@@ -3,31 +3,31 @@
 > Portal editorial independente brasileiro sobre bicicletas, patinetes e triciclos elétricos.
 
 ## Conteúdo principal
-- /guias/
-- /bicicletas-eletricas/
-- /patinetes-eletricos/
-- /triciclos-eletricos/
-- /comparador/
-- /calculadora-autonomia/
-- /legislacao/
-- /metodologia/
+- [Central de guias](https://guiavolt.com.br/guias/)
+- [Bicicletas elétricas](https://guiavolt.com.br/bicicletas-eletricas/)
+- [Patinetes elétricos](https://guiavolt.com.br/patinetes-eletricos/)
+- [Triciclos elétricos](https://guiavolt.com.br/triciclos-eletricos/)
+- [Comparador de modelos](https://guiavolt.com.br/comparador/)
+- [Calculadora de autonomia](https://guiavolt.com.br/calculadora-autonomia/)
+- [Legislação de mobilidade elétrica](https://guiavolt.com.br/legislacao/)
+- [Metodologia editorial](https://guiavolt.com.br/metodologia/)
 
 ## Análises de modelos
-- /bicicletas-eletricas/reviews/nado-k3-750w/
-- /bicicletas-eletricas/reviews/streetgo-s12/
-- /bicicletas-eletricas/reviews/v9-max-1000w/
-- /bicicletas-eletricas/reviews/honeywhale-b20/
-- /patinetes-eletricos/reviews/honeywhale-e9-max-n/
-- /patinetes-eletricos/reviews/honeywhale-m2-pro/
-- /triciclos-eletricos/reviews/veg-s250/
+- [Análise da Nado K3 750W](https://guiavolt.com.br/bicicletas-eletricas/reviews/nado-k3-750w/)
+- [Análise da StreetGo S12](https://guiavolt.com.br/bicicletas-eletricas/reviews/streetgo-s12/)
+- [Análise da V9 Max 1000W](https://guiavolt.com.br/bicicletas-eletricas/reviews/v9-max-1000w/)
+- [Análise da Honeywhale B20](https://guiavolt.com.br/bicicletas-eletricas/reviews/honeywhale-b20/)
+- [Análise do Honeywhale E9 Max-N](https://guiavolt.com.br/patinetes-eletricos/reviews/honeywhale-e9-max-n/)
+- [Análise do Honeywhale M2 Pro](https://guiavolt.com.br/patinetes-eletricos/reviews/honeywhale-m2-pro/)
+- [Análise do VEG S250](https://guiavolt.com.br/triciclos-eletricos/reviews/veg-s250/)
 
 ## Guias essenciais
-- /bicicletas-eletricas/guias/como-escolher/
-- /guias/autonomia-bicicleta-eletrica/
-- /guias/bateria-bicicleta-eletrica/
-- /guias/bicicleta-eletrica-precisa-cnh/
-- /guias/como-escolher-patinete-eletrico/
-- /guias/como-escolher-triciclo-eletrico/
+- [Como escolher uma bicicleta elétrica](https://guiavolt.com.br/bicicletas-eletricas/guias/como-escolher/)
+- [Autonomia de bicicleta elétrica](https://guiavolt.com.br/guias/autonomia-bicicleta-eletrica/)
+- [Bateria de bicicleta elétrica](https://guiavolt.com.br/guias/bateria-bicicleta-eletrica/)
+- [Bicicleta elétrica precisa de CNH?](https://guiavolt.com.br/guias/bicicleta-eletrica-precisa-cnh/)
+- [Como escolher um patinete elétrico](https://guiavolt.com.br/guias/como-escolher-patinete-eletrico/)
+- [Como escolher um triciclo elétrico](https://guiavolt.com.br/guias/como-escolher-triciclo-eletrico/)
 
 ## Política editorial
 Dados de anúncios são marcados como declarados e acompanhados de fonte e data. Autonomia anunciada não é tratada como teste. Links comerciais não alteram vereditos.

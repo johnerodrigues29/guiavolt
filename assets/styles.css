@@ -170,7 +170,7 @@ p { color: var(--muted); }
 .mini-specs dd { margin: 0; color: var(--navy); font-weight: 780; text-align: right; }
 .card-actions { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
 .card-actions .text-link { font-size: .8rem; }
-.product-card-body > small { display: block; margin-top: 10px; color: #7a858f; font-size: .64rem; }
+.product-card-body > small { display: block; margin-top: 10px; color: #5f6c76; font-size: .64rem; }
 .product-card-body > small a { color: var(--green); text-decoration: underline; text-underline-offset: 2px; }
 
 .methodology-home { background: var(--navy); }
@@ -193,7 +193,7 @@ p { color: var(--muted); }
 .editorial-2 { background: #e4ebf4; color: var(--navy); }
 .editorial-3 { background: #f5ead8; color: #9b640a; }
 .editorial-card > div:last-child { padding: 22px; }
-.editorial-card > div:last-child > span { color: #7c878f; font-size: .68rem; text-transform: uppercase; letter-spacing: .07em; }
+.editorial-card > div:last-child > span { color: #5b6872; font-size: .68rem; text-transform: uppercase; letter-spacing: .07em; }
 .editorial-card h3 { margin: 10px 0; }
 .editorial-card p { min-height: 66px; font-size: .85rem; }
 .editorial-card strong { display: flex; align-items: center; gap: 7px; margin-top: 17px; color: var(--green); font-size: .82rem; }
@@ -222,7 +222,7 @@ p { color: var(--muted); }
 .footer-brand > p.muted { max-width: 330px; margin: 5px 0; color: #8da6b2; font-size: .84rem; font-weight: 400; }
 .footer-disclosure { display: flex; align-items: center; gap: 10px; margin-top: 38px; padding: 18px 20px; border: 1px solid rgba(255,255,255,.11); border-radius: 13px; background: rgba(255,255,255,.035); color: #afc1ca; font-size: .78rem; }
 .footer-disclosure svg { flex: 0 0 auto; color: var(--electric); }
-.footer-disclosure p { margin: 0; }
+.footer-disclosure p { margin: 0; color: inherit; }
 .footer-disclosure strong { color: white; }
 .footer-disclosure a { color: var(--electric); font-weight: 750; text-decoration: underline; text-underline-offset: 2px; }
 .footer-bottom { display: flex; justify-content: space-between; gap: 25px; margin-top: 55px; padding-top: 23px; border-top: 1px solid rgba(255,255,255,.11); color: #78919d; font-size: .7rem; }
