@@ -1,0 +1,33 @@
+# GuiaVolt
+
+> Portal editorial independente brasileiro sobre bicicletas, patinetes e triciclos elétricos.
+
+## Conteúdo principal
+- /guias/
+- /bicicletas-eletricas/
+- /patinetes-eletricos/
+- /triciclos-eletricos/
+- /comparador/
+- /calculadora-autonomia/
+- /legislacao/
+- /metodologia/
+
+## Análises de modelos
+- /bicicletas-eletricas/reviews/nado-k3-750w/
+- /bicicletas-eletricas/reviews/streetgo-s12/
+- /bicicletas-eletricas/reviews/v9-max-1000w/
+- /bicicletas-eletricas/reviews/honeywhale-b20/
+- /patinetes-eletricos/reviews/honeywhale-e9-max-n/
+- /patinetes-eletricos/reviews/honeywhale-m2-pro/
+- /triciclos-eletricos/reviews/veg-s250/
+
+## Guias essenciais
+- /bicicletas-eletricas/guias/como-escolher/
+- /guias/autonomia-bicicleta-eletrica/
+- /guias/bateria-bicicleta-eletrica/
+- /guias/bicicleta-eletrica-precisa-cnh/
+- /guias/como-escolher-patinete-eletrico/
+- /guias/como-escolher-triciclo-eletrico/
+
+## Política editorial
+Dados de anúncios são marcados como declarados e acompanhados de fonte e data. Autonomia anunciada não é tratada como teste. Links comerciais não alteram vereditos.
