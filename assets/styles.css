@@ -650,3 +650,8 @@ input[type="number"], select, input[type="email"], input[type="text"] { min-heig
 @media (prefers-reduced-motion: reduce) {
   *, *:before, *:after { scroll-behavior: auto!important; transition-duration: .01ms!important; animation-duration: .01ms!important; }
 }
+
+/* Tabelas editoriais com várias colunas: mesmo estilo e rolagem no celular. */
+.article-body .table-wrap { max-width: 100%; overflow-x: auto; margin: 24px 0; }
+.article-body .table-wrap .specs-table { margin: 0; min-width: 560px; }
+.article-body .table-wrap .specs-table thead th { width: auto; }
