@@ -5,7 +5,6 @@
   const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
   const esc = (value) => String(value).replace(/[&<>"']/g, (char) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#039;' }[char]));
   const productData = [
-    { slug:'ecobikes-sport-500w', imageUrl:'https://images.tcdn.com.br/img/img_prod/649718/eco_sport_500w_48v_1_20260609101318_2cf4e777fefc.png', name:'Ecobikes Sport 500W', category:'bike', sourceType:'official', review:'/bicicletas-eletricas/reviews/ecobikes-sport-500w/', url:'https://meli.la/2NWoQWQ', maxSpeed:'32 km/h (declarada)', eyebrow:'Ficha oficial localizada', specs:[['Motor oficial','500 W'],['Bateria oficial','48 V · chumbo'],['Autonomia declarada','aprox. 30 km']], ideal:'Uso urbano com bateria removível, suspensão e muitos recursos de conveniência.', watch:'Confirme capacidade em Ah, peso, acionamento, variante e enquadramento legal.' },
     { slug:'honeywhale-s6-s-750w', imageVersion:'32', name:'Honeywhale S6-S 750W', category:'bike', sourceType:'official', review:'/bicicletas-eletricas/reviews/honeywhale-s6-s-750w/', url:'https://meli.la/18ASvUw', maxSpeed:'até 35 km/h (declarada)', eyebrow:'Ficha oficial localizada', specs:[['Motor oficial','350 W nominal · 750 W pico'],['Bateria oficial','48 V · 10 Ah · 480 Wh'],['Autonomia declarada','35–40 km']], ideal:'Trajetos urbanos curtos, pouco espaço para guardar e recarga com bateria removível.', watch:'Confirme velocidade configurada, acelerador, dimensões dobrada e enquadramento legal.' },
     { slug:'happy-beans-500w', imageVersion:'29', name:'Happy Beans 500W', category:'bike', sourceType:'seller', review:'/bicicletas-eletricas/reviews/happy-beans-500w/', url:'https://meli.la/33xewA6', maxSpeed:'até 32 km/h (declarada)', eyebrow:'Dados do anúncio', specs:[['Motor declarado','500 W'],['Bateria declarada','48 V · 12 Ah · 576 Wh'],['Autonomia anunciada','cerca de 35 km']], ideal:'Trajetos urbanos curtos com cesta, assento e espaço de guarda no térreo.', watch:'Confirme bateria de chumbo, freios, assistência, peso e enquadramento legal.' },
     { slug:'cavalletta-c3-800w', imageVersion:'27', name:'Cavalletta C3 800W', category:'bike', sourceType:'official', review:'/bicicletas-eletricas/reviews/cavalletta-c3-800w/', url:'https://meli.la/2Kt2m4o', maxSpeed:'até 32 km/h (declarada)', eyebrow:'Ficha oficial localizada', specs:[['Motor declarado','800 W'],['Bateria oficial','48 V · 24 Ah · 1.152 Wh'],['Autonomia anunciada','até 75 km']], ideal:'Trajetos urbanos com bateria removível, cesta e grande capacidade nominal.', watch:'Confirme peso, freios, dimensões, versão e enquadramento legal.' },
@@ -24,7 +23,7 @@
     seller:{ label:'Dados declarados pelo vendedor', detail:'Confirme a ficha da unidade antes da compra.' },
     variants:{ label:'Especificações variam entre versões', detail:'Há divergências entre fontes; confirme etiqueta e manual.' }
   };
-  const productImage = (product) => product.imageUrl || `/assets/products/${product.slug}.webp${product.imageVersion ? `?v=${product.imageVersion}` : ''}`;
+  const productImage = (product) => `/assets/products/${product.slug}.webp${product.imageVersion ? `?v=${product.imageVersion}` : ''}`;
 
   function setDialog(element, open) {
     if (!element) return;
