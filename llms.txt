@@ -13,6 +13,7 @@
 - [Metodologia editorial](https://guiavolt.com.br/metodologia/)
 
 ## Análises de modelos
+- [Análise da Ecobikes Sport 500W](https://guiavolt.com.br/bicicletas-eletricas/reviews/ecobikes-sport-500w/)
 - [Análise da Honeywhale S6-S 750W](https://guiavolt.com.br/bicicletas-eletricas/reviews/honeywhale-s6-s-750w/)
 - [Análise da Happy Beans 500W](https://guiavolt.com.br/bicicletas-eletricas/reviews/happy-beans-500w/)
 - [Análise da Cavalletta C3 800W](https://guiavolt.com.br/bicicletas-eletricas/reviews/cavalletta-c3-800w/)
@@ -27,9 +28,10 @@
 - [Análise do VEG S250](https://guiavolt.com.br/triciclos-eletricos/reviews/veg-s250/)
 
 ## Guias essenciais
+- [Quanto custa carregar uma bicicleta elétrica](https://guiavolt.com.br/guias/quanto-custa-carregar-bicicleta-eletrica/)
 - [Bateria de lítio ou chumbo em bicicleta elétrica](https://guiavolt.com.br/guias/bateria-litio-ou-chumbo-bicicleta-eletrica/)
 - [Qual potência de bicicleta elétrica escolher?](https://guiavolt.com.br/guias/potencia-bicicleta-eletrica/)
-- [Como escolher uma bicicleta elétrica](https://guiavolt.com.br/bicicletas-eletricas/guias/como-escolher/)
+- [Como escolher uma bicicleta elétrica](https://guiavolt.com.br/guias/como-escolher-bicicleta-eletrica/)
 - [Autonomia de bicicleta elétrica](https://guiavolt.com.br/guias/autonomia-bicicleta-eletrica/)
 - [Bateria de bicicleta elétrica](https://guiavolt.com.br/guias/bateria-bicicleta-eletrica/)
 - [Bicicleta elétrica precisa de CNH?](https://guiavolt.com.br/guias/bicicleta-eletrica-precisa-cnh/)
