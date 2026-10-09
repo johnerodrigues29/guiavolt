@@ -28,6 +28,7 @@
 - [Análise do VEG S250](https://guiavolt.com.br/triciclos-eletricos/reviews/veg-s250/)
 
 ## Guias essenciais
+- [Bicicleta elétrica de 32 km/h precisa de CNH ou emplacamento?](https://guiavolt.com.br/guias/bicicleta-eletrica-32-kmh-precisa-cnh/) — Critérios de enquadramento, acelerador, potência nominal e velocidade de fábrica; fontes conferidas em 09/10/2026.
 - [Quanto custa carregar uma bicicleta elétrica](https://guiavolt.com.br/guias/quanto-custa-carregar-bicicleta-eletrica/)
 - [Bateria de lítio ou chumbo em bicicleta elétrica](https://guiavolt.com.br/guias/bateria-litio-ou-chumbo-bicicleta-eletrica/)
 - [Qual potência de bicicleta elétrica escolher?](https://guiavolt.com.br/guias/potencia-bicicleta-eletrica/)
