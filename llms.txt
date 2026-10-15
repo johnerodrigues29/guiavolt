@@ -13,6 +13,8 @@
 - [Metodologia editorial](https://guiavolt.com.br/metodologia/)
 
 ## Análises de modelos
+- [Análise da Atrio Miami 350W](https://guiavolt.com.br/bicicletas-eletricas/reviews/atrio-miami-350w/) — BI208 documentada; BI245/BI245M requer confirmação. Há conflito na medida dos pneus.
+- [Análise da Bikelete MT2 500W](https://guiavolt.com.br/bicicletas-eletricas/reviews/bikelete-mt2-500w/) — Confirme versão MT2, peso, dimensões, manual correto e enquadramento do acelerador.
 - [Análise da Ecobikes Sport 500W](https://guiavolt.com.br/bicicletas-eletricas/reviews/ecobikes-sport-500w/)
 - [Análise da Honeywhale S6-S 750W](https://guiavolt.com.br/bicicletas-eletricas/reviews/honeywhale-s6-s-750w/)
 - [Análise da Happy Beans 500W](https://guiavolt.com.br/bicicletas-eletricas/reviews/happy-beans-500w/)
