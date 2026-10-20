@@ -13,6 +13,7 @@
 - [Metodologia editorial](https://guiavolt.com.br/metodologia/)
 
 ## Análises de modelos
+- [Xiaomi Electric Scooter 6 Lite](https://guiavolt.com.br/patinetes-eletricos/reviews/xiaomi-electric-scooter-6-lite/) — Ficha global, versões regionais, compra e manutenção.
 - [Xplore 500W](https://guiavolt.com.br/bicicletas-eletricas/reviews/xplore-500w/) — Urban: manual oficial, bateria de chumbo, autonomia estimada e enquadramento.
 - [Análise da Atrio Miami 350W](https://guiavolt.com.br/bicicletas-eletricas/reviews/atrio-miami-350w/) — BI208 documentada; BI245/BI245M requer confirmação. Há conflito na medida dos pneus.
 - [Análise da Bikelete MT2 500W](https://guiavolt.com.br/bicicletas-eletricas/reviews/bikelete-mt2-500w/) — Confirme versão MT2, peso, dimensões, manual correto e enquadramento do acelerador.
