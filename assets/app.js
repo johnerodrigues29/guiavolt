@@ -154,7 +154,7 @@
 
   const searchForm = $('[data-search-page]');
   if (searchForm) {
-    const results=$('[data-search-results]'); const entries=[...productData.map(p=>({type:'Análise',title:p.name,text:p.ideal,href:p.review})),{"type": "Guia", "title": "Bicicleta elétrica, autopropelido e ciclomotor: entenda as diferenças", "text": "Legislação: categorias, pedal assistido, acelerador, CNH, ACC, placa, dimensões e circulação.", "href": "/guias/bicicleta-eletrica-autopropelido-ciclomotor/"},{type:'Guia',title:"Bicicleta elétrica de 32 km/h precisa de CNH ou emplacamento?",text:'Legislação: 32 km/h, CNH, ACC, placa, emplacamento, acelerador, pedal assistido e velocidade de fábrica.',href:'/guias/bicicleta-eletrica-32-kmh-precisa-cnh/'},{type:'Guia',title:'Quanto custa carregar uma bicicleta elétrica?',text:'Custo por carga e por mês, tarifa, bateria e perdas de recarga.',href:'/guias/quanto-custa-carregar-bicicleta-eletrica/'},{type:'Hub',title:'Guias de mobilidade elétrica',text:'Central de escolha, bateria, autonomia, legislação, patinetes e triciclos.',href:'/guias/'},{type:'Guia',title:'Bateria de lítio ou chumbo em bicicleta elétrica',text:'Compare peso, vida útil, recarga, autonomia, segurança, reposição e custo total.',href:'/guias/bateria-litio-ou-chumbo-bicicleta-eletrica/'},{type:'Guia',title:'Qual potência de bicicleta elétrica escolher?',text:'Compare 350W, 500W, 750W e 1000W por trajeto, subidas, carga, bateria e regras.',href:'/guias/potencia-bicicleta-eletrica/'},{type:'Guia',title:'Como escolher uma bicicleta elétrica',text:'Trajeto, bateria, motor, conforto, freios e suporte.',href:'/guias/como-escolher-bicicleta-eletrica/'},{type:'Guia',title:'Autonomia de bicicleta elétrica',text:'Wh, consumo, percurso, relevo e margem.',href:'/guias/autonomia-bicicleta-eletrica/'},{type:'Guia',title:'Bateria de bicicleta elétrica',text:'Volts, ampère-hora, watt-hora, recarga e reposição.',href:'/guias/bateria-bicicleta-eletrica/'},{type:'Guia',title:'Bicicleta elétrica precisa de CNH?',text:'Bicicleta elétrica, autopropelido, ciclomotor e Resolução 996.',href:'/guias/bicicleta-eletrica-precisa-cnh/'},{type:'Guia',title:'Como escolher um patinete elétrico',text:'Peso, dobra, pneus, suspensão, freios e peças.',href:'/guias/como-escolher-patinete-eletrico/'},{type:'Guia',title:'Como escolher um triciclo elétrico',text:'Largura, estabilidade, carga, freios e classificação.',href:'/guias/como-escolher-triciclo-eletrico/'},{type:'Ferramenta',title:'Calculadora de autonomia',text:'Simule distância, bateria e relevo.',href:'/calculadora-autonomia/'}];
+    const results=$('[data-search-results]'); const entries=[...productData.map(p=>({type:'Análise',title:p.name,text:p.ideal,href:p.review})),{"type": "Guia", "title": "Como escolher uma bicicleta elétrica para ir ao trabalho", "text": "Trabalho, trajeto, autonomia, recarga, subidas, peso, estacionamento e custo total.", "href": "/guias/bicicleta-eletrica-para-ir-ao-trabalho/"},{"type": "Guia", "title": "Bicicleta elétrica, autopropelido e ciclomotor: entenda as diferenças", "text": "Legislação: categorias, pedal assistido, acelerador, CNH, ACC, placa, dimensões e circulação.", "href": "/guias/bicicleta-eletrica-autopropelido-ciclomotor/"},{type:'Guia',title:"Bicicleta elétrica de 32 km/h precisa de CNH ou emplacamento?",text:'Legislação: 32 km/h, CNH, ACC, placa, emplacamento, acelerador, pedal assistido e velocidade de fábrica.',href:'/guias/bicicleta-eletrica-32-kmh-precisa-cnh/'},{type:'Guia',title:'Quanto custa carregar uma bicicleta elétrica?',text:'Custo por carga e por mês, tarifa, bateria e perdas de recarga.',href:'/guias/quanto-custa-carregar-bicicleta-eletrica/'},{type:'Hub',title:'Guias de mobilidade elétrica',text:'Central de escolha, bateria, autonomia, legislação, patinetes e triciclos.',href:'/guias/'},{type:'Guia',title:'Bateria de lítio ou chumbo em bicicleta elétrica',text:'Compare peso, vida útil, recarga, autonomia, segurança, reposição e custo total.',href:'/guias/bateria-litio-ou-chumbo-bicicleta-eletrica/'},{type:'Guia',title:'Qual potência de bicicleta elétrica escolher?',text:'Compare 350W, 500W, 750W e 1000W por trajeto, subidas, carga, bateria e regras.',href:'/guias/potencia-bicicleta-eletrica/'},{type:'Guia',title:'Como escolher uma bicicleta elétrica',text:'Trajeto, bateria, motor, conforto, freios e suporte.',href:'/guias/como-escolher-bicicleta-eletrica/'},{type:'Guia',title:'Autonomia de bicicleta elétrica',text:'Wh, consumo, percurso, relevo e margem.',href:'/guias/autonomia-bicicleta-eletrica/'},{type:'Guia',title:'Bateria de bicicleta elétrica',text:'Volts, ampère-hora, watt-hora, recarga e reposição.',href:'/guias/bateria-bicicleta-eletrica/'},{type:'Guia',title:'Bicicleta elétrica precisa de CNH?',text:'Bicicleta elétrica, autopropelido, ciclomotor e Resolução 996.',href:'/guias/bicicleta-eletrica-precisa-cnh/'},{type:'Guia',title:'Como escolher um patinete elétrico',text:'Peso, dobra, pneus, suspensão, freios e peças.',href:'/guias/como-escolher-patinete-eletrico/'},{type:'Guia',title:'Como escolher um triciclo elétrico',text:'Largura, estabilidade, carga, freios e classificação.',href:'/guias/como-escolher-triciclo-eletrico/'},{type:'Ferramenta',title:'Calculadora de autonomia',text:'Simule distância, bateria e relevo.',href:'/calculadora-autonomia/'}];
     function renderSearch(query) { const q=query.trim().toLocaleLowerCase('pt-BR'); const filtered=entries.filter(e=>!q||`${e.title} ${e.text}`.toLocaleLowerCase('pt-BR').includes(q)); results.innerHTML=filtered.length?filtered.map(e=>`<a class='search-result' href='${e.href}'><span>${e.type}</span><h2>${esc(e.title)}</h2><p>${esc(e.text)}</p></a>`).join(''):`<p class='search-empty'>Nenhum resultado. Tente “bicicleta”, “autonomia” ou o nome de um modelo.</p>`; }
     const q=new URLSearchParams(location.search).get('q')||''; searchForm.q.value=q; renderSearch(q); searchForm.addEventListener('submit',event=>{event.preventDefault();const value=searchForm.q.value;history.replaceState(null,'',`?q=${encodeURIComponent(value)}`);renderSearch(value);});
   }
@@ -212,4 +212,31 @@
   updateBackToTopOffset();
   updateBackToTopVisibility();
 
+
+  // Reviews: jump to the existing purchase section without obscuring visible offers.
+  const buyBar = $('[data-review-buy]');
+  if (buyBar) {
+    const offers = $$('.offer-box');
+    const target = $('#oferta-mercado-livre');
+    let frame = 0;
+    function updateBuyBar() {
+      frame = 0;
+      const offerVisible = offers.some(el => { const rect = el.getBoundingClientRect(); return rect.bottom > 90 && rect.top < innerHeight - 90; });
+      const dialogOpen = document.querySelector('[data-mobile-panel]:not([hidden]), [data-search-overlay]:not([hidden])');
+      const visible = scrollY > 500 && !offerVisible && !dialogOpen;
+      buyBar.hidden = !visible;
+      document.body.classList.toggle('buy-bar-visible', visible);
+      if (visible) document.body.style.setProperty('--review-buy-height', `${buyBar.offsetHeight}px`);
+    }
+    const schedule = () => { if (!frame) frame = requestAnimationFrame(updateBuyBar); };
+    addEventListener('scroll', schedule, {passive:true});
+    addEventListener('resize', schedule, {passive:true});
+    $$('[data-mobile-panel], [data-search-overlay]').forEach(el => new MutationObserver(schedule).observe(el, {attributes:true,attributeFilter:['hidden']}));
+    $('[href="#oferta-mercado-livre"]', buyBar).addEventListener('click', event => {
+      event.preventDefault();
+      target.focus({preventScroll:true});
+      target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
+    });
+    updateBuyBar();
+  }
 })();

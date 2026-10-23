@@ -655,3 +655,20 @@ input[type="number"], select, input[type="email"], input[type="text"] { min-heig
 .article-body .table-wrap { max-width: 100%; overflow-x: auto; margin: 24px 0; }
 .article-body .table-wrap .specs-table { margin: 0; min-width: 560px; }
 .article-body .table-wrap .specs-table thead th { width: auto; }
+
+/* Shared social links and review purchase shortcut */
+.footer-social{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+.footer-social a{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border:1px solid currentColor;border-radius:50%;color:inherit;transition:color .2s,background .2s,transform .2s}
+.footer-social a:hover{color:var(--electric);transform:translateY(-2px)}
+.footer-social a:focus-visible,.review-buy-bar a:focus-visible{outline:3px solid var(--electric);outline-offset:4px}
+.review-buy-bar[hidden]{display:none}
+.review-buy-bar{position:fixed;inset:auto 0 0;z-index:65;background:rgba(255,255,255,.98);border-top:1px solid var(--border);box-shadow:0 -5px 24px rgba(11,31,51,.1);padding:12px 0 calc(12px + env(safe-area-inset-bottom));}
+.review-buy-bar>.container{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.review-buy-bar span{font-weight:800;color:var(--navy)}
+.review-buy-bar .button{background:#2468c9;border-color:#2468c9;color:#fff;min-height:48px;text-align:center;justify-content:center}
+.review-buy-bar .button:hover{background:#1b5bb8}
+.review-page{padding-bottom:90px}
+.review-page.buy-bar-visible .back-to-top{bottom:calc(var(--review-buy-height,80px) + 14px)!important}
+#oferta-mercado-livre{scroll-margin-top:110px}
+@media(max-width:600px){.review-buy-bar span{display:none}.review-buy-bar .button{width:100%;font-size:.86rem}.review-buy-bar>.container{width:calc(100% - 28px)}.review-page{padding-bottom:100px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.footer-social a{transition:none}}
