@@ -213,17 +213,19 @@
   updateBackToTopVisibility();
 
 
-  // Reviews: jump to the existing purchase section without obscuring visible offers.
+  // Reviews: mobile affiliate shortcut, hidden at offers, dialogs and footer.
   const buyBar = $('[data-review-buy]');
   if (buyBar) {
     const offers = $$('.offer-box');
-    const target = $('#oferta-mercado-livre');
+    const footer = $('.site-footer');
+    const mobile = matchMedia('(max-width: 860px)');
     let frame = 0;
     function updateBuyBar() {
       frame = 0;
       const offerVisible = offers.some(el => { const rect = el.getBoundingClientRect(); return rect.bottom > 90 && rect.top < innerHeight - 90; });
       const dialogOpen = document.querySelector('[data-mobile-panel]:not([hidden]), [data-search-overlay]:not([hidden])');
-      const visible = scrollY > 500 && !offerVisible && !dialogOpen;
+      const footerReached = footer && footer.getBoundingClientRect().top <= innerHeight;
+      const visible = mobile.matches && scrollY > 500 && !offerVisible && !dialogOpen && !footerReached;
       buyBar.hidden = !visible;
       document.body.classList.toggle('buy-bar-visible', visible);
       if (visible) document.body.style.setProperty('--review-buy-height', `${buyBar.offsetHeight}px`);
@@ -232,11 +234,7 @@
     addEventListener('scroll', schedule, {passive:true});
     addEventListener('resize', schedule, {passive:true});
     $$('[data-mobile-panel], [data-search-overlay]').forEach(el => new MutationObserver(schedule).observe(el, {attributes:true,attributeFilter:['hidden']}));
-    $('[href="#oferta-mercado-livre"]', buyBar).addEventListener('click', event => {
-      event.preventDefault();
-      target.focus({preventScroll:true});
-      target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
-    });
+
     updateBuyBar();
   }
 })();

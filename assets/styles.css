@@ -672,3 +672,7 @@ input[type="number"], select, input[type="email"], input[type="text"] { min-heig
 #oferta-mercado-livre{scroll-margin-top:110px}
 @media(max-width:600px){.review-buy-bar span{display:none}.review-buy-bar .button{width:100%;font-size:.86rem}.review-buy-bar>.container{width:calc(100% - 28px)}.review-page{padding-bottom:100px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.footer-social a{transition:none}}
+
+/* Purchase CTA: desktop header, mobile bottom bar. */
+@media(min-width:861px){.review-buy-bar{display:none!important}.review-page{padding-bottom:0}.review-page .desktop-cta{white-space:nowrap;font-size:.76rem;padding-inline:12px}}
+@media(max-width:860px){.review-buy-bar span{display:none}.review-buy-bar .button{width:100%}.review-page{padding-bottom:0}}
