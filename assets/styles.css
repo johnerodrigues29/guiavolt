@@ -698,6 +698,17 @@ input[type="number"], select, input[type="email"], input[type="text"] { min-heig
 /* The shared INOW frame surrounds only the central photograph.
    Original 1200x900 artwork is clipped to its white 1060x760 interior. */
 .gv-photo-window{display:block;position:relative;width:100%;height:100%;min-height:0;overflow:hidden;border-radius:24px;background:#fff;border:1px solid #e0e8e2;isolation:isolate}
-.gv-inow-frame .gv-photo-window>img{position:absolute;left:-6.603774%;top:-9.210526%;width:113.207548%!important;height:118.421052%!important;max-width:none;object-fit:fill!important;border:0;border-radius:0}
+
 .compare-product-photo .gv-photo-window{aspect-ratio:1060/760;height:auto}
 .finder-result-photo .gv-photo-window{aspect-ratio:1060/760;height:auto}
+
+/* Fit the cropped photo proportionally inside each frame, regardless of card shape. */
+.gv-inow-frame .gv-photo-window{display:flex;align-items:center;justify-content:center;container-type:size;width:100%;height:100%;padding:0;background:#fff}
+.gv-photo-crop{position:relative;flex:none;width:min(100cqw,139.473684cqh);aspect-ratio:1060/760;overflow:hidden}
+.gv-inow-frame .gv-photo-crop>img{position:absolute;left:-6.603774%;top:-9.210526%;width:113.207548%!important;height:118.421052%!important;max-width:none!important;max-height:none!important;object-fit:fill!important;padding:0!important;border:0!important;border-radius:0!important}
+.compare-product-photo.gv-inow-frame{height:187.5px;aspect-ratio:4/3}
+.compare-product-photo.gv-inow-frame .gv-photo-window,.compare-product-photo.gv-inow-frame>img{border-radius:12px}
+.showcase-main-link.gv-inow-frame{min-height:0}
+.page-product-art>a.gv-inow-frame{padding:12px!important}
+.page-product-art>a.gv-inow-frame>span{z-index:4}
+.finder-result-photo.gv-inow-frame{aspect-ratio:4/3}
