@@ -683,3 +683,12 @@ input[type="number"], select, input[type="email"], input[type="text"] { min-heig
 .gv-inow-frame img{border-radius:24px;border:1px solid #e0e8e2;background:#faf9fc;object-fit:contain!important;width:100%;height:100%}
 .gv-inow-frame .product-photo-link{height:100%}.gv-inow-frame figcaption{z-index:4}
 .compare-product-photo:has(img[src*="inow-v20-pro"]){padding:12px;background:#e8f7f2}.compare-product-photo:has(img[src*="inow-v20-pro"]) img{border-radius:12px}
+
+/* Shared product presentation and directional navigation. */
+.site-header{transition:transform .22s ease;will-change:transform}
+.site-header.header-away{transform:translateY(-105%);pointer-events:none}
+.site-header:focus-within{transform:none;pointer-events:auto}
+.ranking-page .article-shell{max-width:1188px}
+.compare-product-photo.gv-inow-frame{padding:12px!important;aspect-ratio:4/3;height:auto}
+.product-card .product-card-body>h3:first-child{margin-top:0}
+@media(prefers-reduced-motion:reduce){.site-header{transition:none}}
