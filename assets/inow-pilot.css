@@ -30,3 +30,18 @@
 .gallery-thumbs button{background:#e8f7f2;border-radius:12px;padding:5px}
 .gallery-thumbs img{display:block;border-radius:8px;background:#fff}
 @media(max-width:760px){.gallery-thumbs button{padding:3px;border-radius:10px}.gallery-thumbs img{border-radius:6px}}
+
+.review-landing .pilot-copy h1{font-size:clamp(30px,3.4vw,48px);line-height:1.12}
+.review-landing .pilot-deck{font-size:17px;line-height:1.7}
+.review-landing .pilot-spec-strip strong{font-size:clamp(15px,1.5vw,21px);overflow-wrap:anywhere}
+.review-landing .pilot-spec-strip span{font-size:12px}
+.review-landing .pilot-photo{width:100%;height:auto;aspect-ratio:4/3}
+.review-landing .pilot-checklist ol{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;padding:0;counter-reset:checks}
+.review-landing .final-verdict{max-width:none;margin:0;border-radius:0;background:#edf5f1;text-align:center}
+.review-landing .final-verdict>p{margin-inline:auto}
+.review-landing .pilot-section:empty{display:none}
+@media(max-width:760px){.review-landing .pilot-checklist ol{grid-template-columns:1fr}.review-landing .pilot-copy h1{font-size:34px}.review-landing .pilot-spec-strip strong{font-size:17px}}
+
+.review-landing .insight-grid:has(>.insight-card:only-child){grid-template-columns:1fr;max-width:900px;margin-inline:auto}
+.review-landing .insight-card>p:last-child{margin-bottom:0}
+.review-landing .pilot-section>.insight-details{clear:both}
