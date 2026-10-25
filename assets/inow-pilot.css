@@ -25,3 +25,8 @@
 .pilot-sources .insight-details p{line-height:1.8}
 @media(max-width:760px){.pilot-features,.pilot-spec-grid{grid-template-columns:1fr 1fr}.pilot-features>div{padding:20px}.pilot-spec-grid>div{padding:16px}.pilot-section .insight-heading,.pilot-related .insight-heading{margin-bottom:26px}.pilot-checklist ul{grid-template-columns:1fr}}
 @media(max-width:460px){.pilot-features{grid-template-columns:1fr}.pilot-spec-grid{gap:8px}.pilot-spec-grid dd{overflow-wrap:anywhere}}
+
+/* Small previews use a simple frame with a rounded photo. */
+.gallery-thumbs button{background:#e8f7f2;border-radius:12px;padding:5px}
+.gallery-thumbs img{display:block;border-radius:8px;background:#fff}
+@media(max-width:760px){.gallery-thumbs button{padding:3px;border-radius:10px}.gallery-thumbs img{border-radius:6px}}

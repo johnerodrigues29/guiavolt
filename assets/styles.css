@@ -692,3 +692,10 @@ input[type="number"], select, input[type="email"], input[type="text"] { min-heig
 .compare-product-photo.gv-inow-frame{padding:12px!important;aspect-ratio:4/3;height:auto}
 .product-card .product-card-body>h3:first-child{margin-top:0}
 @media(prefers-reduced-motion:reduce){.site-header{transition:none}}
+
+/* Legacy artwork already contains the shared frame: display it only once. */
+.gv-preframed{padding:0!important;overflow:hidden;border-radius:18px;background:#e8f7f2}
+.gv-preframed:before,.gv-preframed:after{display:none!important}
+.gv-preframed img{display:block;width:100%;height:100%;object-fit:contain;border:0;border-radius:18px}
+.compare-product-photo.gv-preframed{aspect-ratio:4/3;height:auto}
+@media(max-width:760px){.site-header{backdrop-filter:none;background:#fff}}
