@@ -676,3 +676,10 @@ input[type="number"], select, input[type="email"], input[type="text"] { min-heig
 /* Purchase CTA: desktop header, mobile bottom bar. */
 @media(min-width:861px){.review-buy-bar{display:none!important}.review-page{padding-bottom:0}.review-page .desktop-cta{white-space:nowrap;font-size:.76rem;padding-inline:12px}}
 @media(max-width:860px){.review-buy-bar span{display:none}.review-buy-bar .button{width:100%}.review-page{padding-bottom:0}}
+
+/* Moldura GuiaVolt aplicada às fotos oficiais da INOW sem alterar o produto. */
+.gv-inow-frame{position:relative;isolation:isolate;background:radial-gradient(circle at 6% 91%,#d6f55d 0 5%,transparent 5.2%),radial-gradient(circle at 100% 0%,#cfece4 0 23%,transparent 23.2%),#e8f7f2!important;padding:4.5%!important;overflow:hidden;border-radius:18px}
+.gv-inow-frame:before{content:"";position:absolute;z-index:3;top:6%;left:4.5%;width:18%;height:5px;border-radius:10px;background:#17a681}
+.gv-inow-frame img{border-radius:24px;border:1px solid #e0e8e2;background:#faf9fc;object-fit:contain!important;width:100%;height:100%}
+.gv-inow-frame .product-photo-link{height:100%}.gv-inow-frame figcaption{z-index:4}
+.compare-product-photo:has(img[src*="inow-v20-pro"]){padding:12px;background:#e8f7f2}.compare-product-photo:has(img[src*="inow-v20-pro"]) img{border-radius:12px}
