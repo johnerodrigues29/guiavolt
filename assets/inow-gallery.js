@@ -3,10 +3,11 @@
   const buttons = [...document.querySelectorAll('[data-gallery-src]')];
   if (!main) return;
   function show(button) {
-    main.srcset = button.dataset.gallerySrcset;
+    main.srcset = button.dataset.gallerySrcset || '';
+    main.closest('figure').classList.toggle('gallery-raw', button.dataset.galleryFramed === 'false');
     main.src = button.dataset.gallerySrc;
     main.alt = button.dataset.galleryAlt;
-    main.closest("figure").querySelector("figcaption").textContent = button === buttons[0] ? "INOW V20 Pro caramelo" : "INOW V20 Brake Pro";
+    main.closest("figure").querySelector("figcaption").textContent = button.dataset.galleryCaption || (button === buttons[0] ? "INOW V20 Pro caramelo" : "INOW V20 Brake Pro");
     buttons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
   }
   buttons.forEach((button,index) => {
