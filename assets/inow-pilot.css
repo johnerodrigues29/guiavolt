@@ -64,3 +64,17 @@
 .inow-pilot .gallery-thumbs .gv-photo-window{border-radius:8px;overflow:hidden}
 .inow-pilot .gallery-thumbs .gv-photo-crop img{border-radius:0}
 .inow-pilot .pilot-copy h1{overflow-wrap:break-word}
+
+/* Gallery geometry is independent of product card wrappers. */
+.inow-pilot .review-gallery-stage{position:absolute;inset:4.5%;display:flex;align-items:center;justify-content:center;container-type:size;overflow:hidden;background:#fff;border:1px solid #e0e8e2;border-radius:12px}
+.inow-pilot .review-image-box{display:block;position:relative;width:100%;height:100%;overflow:hidden}
+.inow-pilot .review-image-box>img{display:block;position:absolute;inset:0;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:contain!important;border:0!important;border-radius:0!important;padding:0!important;background:#fff}
+.inow-pilot .is-legacy>.review-image-box{width:min(100cqw,139.473684cqh);height:auto;aspect-ratio:1060/760;flex:none}
+.inow-pilot .is-legacy>.review-image-box>img{inset:auto;left:-6.603774%;top:-9.210526%;width:113.207548%!important;height:118.421052%!important;object-fit:fill!important}
+.inow-pilot .gallery-thumbs>button,.inow-pilot .gallery-placeholder{position:relative;min-width:0;aspect-ratio:4/3;border-radius:12px;background:#e8f7f2}
+.inow-pilot .review-thumb-stage{position:absolute;inset:5px;display:flex;align-items:center;justify-content:center;container-type:size;overflow:hidden;border-radius:8px;background:#fff}
+.inow-pilot .gallery-placeholder{border:1px dashed #a7bfb3}
+.inow-pilot .gallery-placeholder:after{content:'';position:absolute;inset:5px;border-radius:8px;background:#fff}
+.inow-pilot .pilot-spec-strip strong{display:block;font-size:clamp(17px,1.8vw,23px);overflow-wrap:normal}
+.inow-pilot .pilot-description{max-width:58ch}
+@media(max-width:760px){.inow-pilot .review-thumb-stage{inset:3px}.inow-pilot .gallery-placeholder{border-radius:10px}.inow-pilot .pilot-spec-strip>div{padding:14px 10px}}

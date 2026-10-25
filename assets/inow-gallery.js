@@ -4,7 +4,7 @@
   if (!main) return;
   function show(button) {
     main.srcset = button.dataset.gallerySrcset || '';
-    main.closest('figure').classList.toggle('gallery-raw', button.dataset.galleryFramed === 'false');
+    main.closest('.review-gallery-stage').classList.toggle('is-legacy', button.dataset.galleryFramed === 'true');
     main.src = button.dataset.gallerySrc;
     main.alt = button.dataset.galleryAlt;
     main.closest("figure").querySelector("figcaption").textContent = button.dataset.galleryCaption || (button === buttons[0] ? "INOW V20 Pro caramelo" : "INOW V20 Brake Pro");
