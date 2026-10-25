@@ -1,0 +1,17 @@
+{
+  "name": "GuiaVolt",
+  "short_name": "GuiaVolt",
+  "description": "Sua escolha elétrica, com dados.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F8F7",
+  "theme_color": "#0B1F33",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
