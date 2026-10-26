@@ -78,3 +78,22 @@
 .inow-pilot .pilot-spec-strip strong{display:block;font-size:clamp(17px,1.8vw,23px);overflow-wrap:normal}
 .inow-pilot .pilot-description{max-width:58ch}
 @media(max-width:760px){.inow-pilot .review-thumb-stage{inset:3px}.inow-pilot .gallery-placeholder{border-radius:10px}.inow-pilot .pilot-spec-strip>div{padding:14px 10px}}
+
+/* All offers sit outside checklist bands, exactly as in the INOW layout. */
+.inow-pilot #oferta-mercado-livre{box-sizing:border-box;width:calc(100% - 48px);max-width:1188px;margin:40px auto;padding:29px;gap:28px}
+.inow-pilot #oferta-mercado-livre .offer-benefits{display:grid;grid-template-columns:1fr;gap:6px;padding:0;margin:15px 0 0;list-style:none;counter-reset:none}
+.inow-pilot #oferta-mercado-livre .offer-benefits li{display:flex;align-items:flex-start;gap:7px;margin:0;padding:0;border:0;border-radius:0;background:none;counter-increment:none;line-height:1.6}
+.inow-pilot #oferta-mercado-livre .offer-benefits li:before{content:none}
+.inow-pilot .pilot-hero>*,.inow-pilot .pilot-spec-strip>*,.inow-pilot .pilot-spec-grid>*,.inow-pilot .offer-box>*{min-width:0}
+.inow-pilot .pilot-section>.insight-heading h2{margin:0 0 16px}
+.inow-pilot .offer-box h3{margin:0 0 7px}
+@media(max-width:760px){
+ .inow-pilot #oferta-mercado-livre{width:calc(100% - 48px);margin:28px auto;padding:24px 20px;grid-template-columns:minmax(0,1fr);gap:20px}
+ .inow-pilot .pilot-section,.inow-pilot .pilot-related{padding:40px 24px}
+ .inow-pilot .pilot-section .pros-cons,.inow-pilot .pilot-section .insight-grid{grid-template-columns:minmax(0,1fr)}
+ .inow-pilot .pilot-section .pros-cons>div{padding:22px;min-width:0}
+ .inow-pilot .pilot-copy{min-width:0}
+ .inow-pilot .offer-action,.inow-pilot .offer-action .button{width:100%;min-width:0}
+ .inow-pilot .offer-benefits li{font-size:12px}
+ .inow-pilot .pilot-section>.editorial-prose{columns:auto}
+}
