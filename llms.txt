@@ -13,6 +13,7 @@
 - [Metodologia editorial](https://guiavolt.com.br/metodologia/)
 
 ## Análises de modelos
+- [Segway Ninebot MAX G2](https://guiavolt.com.br/patinetes-eletricos/reviews/segway-ninebot-max-g2/) — Referência E, diferenças regionais, análise documental; oferta e suporte brasileiro não confirmados.
 - [Caloi E-Vibe Rush](https://guiavolt.com.br/bicicletas-eletricas/reviews/caloi-e-vibe-rush/) — Ficha oficial: 250 W, bateria removível de 176,4 Wh e até 25 km anunciados; tamanho, oferta e enquadramento a confirmar.
 - [INOW V40 Pro](https://guiavolt.com.br/bicicletas-eletricas/reviews/inow-v40-pro/) — Ficha oficial: 48 V/18 Ah, 1.000 W e até 60 km anunciados; configuração de velocidade e oferta a confirmar.
 - [INOW V20 Pro caramelo](https://guiavolt.com.br/bicicletas-eletricas/reviews/inow-v20-pro/) — Piloto visual; ficha oficial Brake Pro, bancos caramelo e versão da oferta a confirmar.
