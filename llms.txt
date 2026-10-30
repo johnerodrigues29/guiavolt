@@ -3,6 +3,7 @@
 > Portal editorial independente brasileiro sobre bicicletas, patinetes e triciclos elétricos.
 
 ## Conteúdo principal
+- [Bicicleta elétrica estilo scooter: vantagens, limitações e regras](https://guiavolt.com.br/guias/bicicleta-eletrica-estilo-scooter/) — Guia de compra sobre formato sentado, limitações e classificação por características da unidade.
 - [Central de guias](https://guiavolt.com.br/guias/)
 - [Bicicletas elétricas](https://guiavolt.com.br/bicicletas-eletricas/)
 - [Patinetes elétricos](https://guiavolt.com.br/patinetes-eletricos/)
