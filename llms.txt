@@ -14,6 +14,8 @@
 - [Metodologia editorial](https://guiavolt.com.br/metodologia/)
 
 ## Análises de modelos
+- [Duos Confort 800W](https://guiavolt.com.br/bicicletas-eletricas/reviews/duos-confort-800w/) — Publicado em 05/11/2026; versões de bateria, documentos e compra.
+
 - [Mymax MyWay 4.0](https://guiavolt.com.br/bicicletas-eletricas/reviews/mymax-myway-4-0/) — Análise documental, fontes divergentes e versão da oferta a confirmar.
 - [StreetGo S17](https://guiavolt.com.br/bicicletas-eletricas/reviews/streetgo-s17/) — Análise documental, fontes divergentes e versão da oferta a confirmar.
 
@@ -59,3 +61,7 @@ Dados de anúncios são marcados como declarados e acompanhados de fonte e data.
 
 
 - [Como escolher uma bicicleta elétrica para ir ao trabalho](https://guiavolt.com.br/guias/bicicleta-eletrica-para-ir-ao-trabalho/) — Critérios de escolha para deslocamentos ao trabalho, autonomia, recarga e custo total.
+
+## Revisão editorial de 05/11/2026
+- StreetGo S12: componentes da referência comercial histórica precisam ser confirmados na unidade atual.
+- Honeywhale B20: peso informado de 21 kg; divergência entre descrição de 25 km/h e tabela de 32 km/h.
