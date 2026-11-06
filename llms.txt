@@ -3,6 +3,8 @@
 > Portal editorial independente brasileiro sobre bicicletas, patinetes e triciclos elétricos.
 
 ## Conteúdo principal
+- [Como comparar conforto, suspensão e tamanho das rodas](https://guiavolt.com.br/guias/conforto-suspensao-tamanho-rodas-bicicleta-eletrica/) — Publicado em 06/11/2026; rodas, pneus, suspensão, posição e roteiro de teste.
+
 - [Bicicleta elétrica estilo scooter: vantagens, limitações e regras](https://guiavolt.com.br/guias/bicicleta-eletrica-estilo-scooter/) — Guia de compra sobre formato sentado, limitações e classificação por características da unidade.
 - [Central de guias](https://guiavolt.com.br/guias/)
 - [Bicicletas elétricas](https://guiavolt.com.br/bicicletas-eletricas/)
